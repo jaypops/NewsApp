@@ -1,0 +1,58 @@
+.Text h2 {
+  text-transform: capitalize;
+}
+.Text h3 {
+  height: 45dvh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-size: var(--fs-800);
+  color: var(--color-1);
+  font-weight: var(--fw-800);
+  max-width: 800px;
+  word-wrap: break-word;
+  text-align: start;
+}
+.Text h4 {
+  max-width: 600px;
+  word-wrap: break-word;
+  color: var(--color-5);
+  padding: 0 0 5px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  line-height: 1.5em;
+  position: relative;
+}
+.Text h2 {
+  color: var(--color-1);
+  font-size: var(--fs-400);
+  max-width: 500px;
+  padding: 0 0 10px 0;
+}
+.Text .publish {
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-1);
+  font-weight: var(--fw-400);
+  font-size: var(--fs-400);
+  padding: 15px 0;
+}
+.Text h4 .link {
+  color: var(--color-1);
+  font-weight: var(--fw-400);
+}
+.Text h4 .url {
+  color: var(--color-1);
+}
+.Text .eye {
+  color: var(--color-1);
+  display: flex;
+  justify-content: end;
+  font-size: var(--fs-700);
+  padding: 1rem 0 0 0;
+  cursor: pointer;
+}

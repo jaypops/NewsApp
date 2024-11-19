@@ -1,0 +1,67 @@
+.box {
+  border: 1px solid var(--color-3);
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: var(--color-6);
+  max-width: 375px;
+  min-height: 430px;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+.box img {
+  width: 370px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
+.box h3 {
+  color: var(--color-1);
+  font-size: var(--fs-400);
+  padding: 0 0 15px 0;
+  max-width: 310px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5em;
+  max-height: 4.5em;
+  position: relative;
+}
+.box h5 {
+  position: absolute;
+  z-index: 2;
+  color: var(--color-7);
+  padding: 0 0 0 0.7rem;
+  /* top: 2rem; */
+}
+.box .url {
+  color: var(--color-1);
+  font-weight: var(--fw-400);
+}
+.box .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .head h2 {
+  font-size: var(--fs-500);
+  padding: 15px 0 20px 0;
+  max-width: 320px;
+}
+.box .head .arrow {
+  cursor: pointer;
+}
+.box .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px 0 0 0;
+}
+.box .foot .leftfoot {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-400);
+}
+.box .foot .rightfoot .her {
+  font-size: 25px;
+}

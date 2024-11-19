@@ -1,0 +1,11 @@
+.LandingPage {
+  z-index: 1;
+  /* color: var(--color-2); */
+}
+.main {
+  background-color: var(--color-3);
+  /* max-width: 100%;
+  min-height: 100%; */
+  padding: 3rem 2rem 0 4rem;
+  color: var(--color-1);
+}

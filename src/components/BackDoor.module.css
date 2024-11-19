@@ -1,0 +1,7 @@
+.back {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color-1);
+  font-size: 45px;
+  cursor: pointer;
+}

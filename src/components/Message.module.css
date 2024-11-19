@@ -1,0 +1,13 @@
+.msg {
+  background-color: var(--color-7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+.msg .message {
+  display: flex;
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  font-weight: 600;
+}

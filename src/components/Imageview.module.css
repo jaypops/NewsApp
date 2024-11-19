@@ -1,0 +1,8 @@
+.eye {
+  color: var(--color-1);
+  display: flex;
+  justify-content: end;
+  font-size: var(--fs-700);
+  padding: 1rem 0 0 0;
+  cursor: pointer;
+}

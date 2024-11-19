@@ -1,0 +1,35 @@
+.search {
+  padding: 4rem;
+  position: absolute;
+  z-index: 2;
+  top: -35px;
+}
+.sea {
+  background-color: var(--color-1);
+  padding: 0 15px;
+  width: max-content;
+  height: 2.5rem;
+  max-width: 20rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.4);
+}
+.search .sea input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin-left: 5px;
+}
+.search .sea input:focus {
+  outline: none;
+}
+.search .sea .icon {
+  display: flex;
+  align-items: center;
+}
+.search .sea .text {
+  display: flex;
+  align-items: center;
+}

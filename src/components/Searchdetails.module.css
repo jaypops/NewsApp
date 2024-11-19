@@ -1,0 +1,59 @@
+.cover {
+  background-color: var(--color-6);
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.4);
+  color: var(--color-1);
+  border-radius: 15px;
+  z-index: 7;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  width: 145dvh;
+}
+.cover h1,
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover .timecati {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cover .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 1rem 2.5rem;
+}
+.cover .img img {
+  border-radius: 15px;
+  max-height: 400px;
+  object-fit: cover;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.4);
+}
+.cover h2 {
+  font-size: var(--fs-700);
+  padding: 0 2rem;
+}
+.cover h4 {
+  font-size: var(--fs-500);
+  padding: 0 2rem;
+}
+.cover a {
+  color: var(--color-1);
+  padding: 1rem 2rem;
+}
+.cover .icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 2rem;
+  position: relative;
+  bottom: 3rem;
+  font-size: 25px;
+  cursor: pointer;
+}
