@@ -8,7 +8,7 @@ import Message from "../components/Message";
 function Home() {
   const { isLoading, apiError } = useApicalls();
   if (isLoading) return <Spinner />;
-  if (apiError) return <Message message={apiError} />;
+  // if (apiError) return <Message message={apiError} />;
 
   return (
     <main className={styles.LandingPage}>

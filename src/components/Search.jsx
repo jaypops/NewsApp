@@ -28,22 +28,21 @@ function Search() {
 
   return (
     <form className={styles.search} onSubmit={handleSearch}>
-      {!apiError === "" && (
-        <div className={styles.sea}>
-          <span className={styles.icon}>
-            <CiSearch />
-          </span>
-          <span className={styles.text}>
-            <input
-              type="search"
-              placeholder="Click here to search..."
-              onClick={handleClick}
-              value={Input}
-              onChange={(e) => setInput(e.target.value)}
-            />
-          </span>
-        </div>
-      )}
+      <div className={styles.sea}>
+        <span className={styles.icon}>
+          <CiSearch />
+        </span>
+        <span className={styles.text}>
+          <input
+            type="search"
+            placeholder="Click here to search..."
+            onClick={handleClick}
+            disabled={!apiError}
+            value={Input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+        </span>
+      </div>
     </form>
   );
 }
