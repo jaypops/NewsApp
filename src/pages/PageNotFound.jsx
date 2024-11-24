@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import styles from "./Error.module.css";
+import styles from "./PageNotFound.module.css";
 import Button from "../components/Button";
 
-function Error() {
+function PageNotFound() {
   const navigate = useNavigate();
   return (
     <div className={styles.main}>
@@ -14,4 +14,4 @@ function Error() {
   );
 }
 
-export default Error;
+export default PageNotFound;

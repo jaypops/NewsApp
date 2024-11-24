@@ -9,9 +9,7 @@ function NavR() {
   }
   return (
     <div className={styles.nav}>
-      <div>
-        <Sort />
-      </div>
+      <div>{/* <Sort /> */}</div>
       <div className={styles.btn}>
         <Button type="primary" onClick={handleDeleteAll}>
           Clear All
