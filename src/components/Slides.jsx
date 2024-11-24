@@ -68,7 +68,7 @@ function Slides() {
             <h4>
               {slide.description}
               <a
-                href={slide.source_url}
+                href={slide.link}
                 className={styles.url}
                 target="_blank"
                 rel="noopener noreferrer"

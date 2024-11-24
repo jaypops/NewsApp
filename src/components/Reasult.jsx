@@ -22,7 +22,7 @@ function Result({ article }) {
   };
   return (
     <div className={styles.box}>
-      <h5>{article.country}.</h5>
+      {/* <h5>{article.country}.</h5> */}
       <LazyLoadImage
         src={article.image_url || backupImage}
         className={styles.img}
@@ -38,7 +38,7 @@ function Result({ article }) {
       </div>
       <h3>{article.description}</h3>
       <a
-        href={article.source_url}
+        href={article.link}
         className={styles.url}
         target="_blank"
         rel="noreferrer"
@@ -68,7 +68,7 @@ Result.propTypes = {
     country: PropTypes.string.isRequired,
     description: PropTypes.string,
     image_url: PropTypes.string,
-    source_url: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
     pubDate: PropTypes.string.isRequired,
   }).isRequired,
 };
