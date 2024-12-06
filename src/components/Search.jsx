@@ -37,7 +37,7 @@ function Search() {
             type="search"
             placeholder="Click here to search..."
             onClick={handleClick}
-            disabled={!apiError}
+{/*             disabled={!apiError} */}
             value={Input}
             onChange={(e) => setInput(e.target.value)}
           />
